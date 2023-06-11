@@ -17,7 +17,6 @@
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400;
-  line-height: 19px;
   text-align: center;
 }
 
@@ -41,19 +40,14 @@
 .tabs-content {
   border: #c6cbcd 1px solid;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .tabs-content__text {
-  max-width: 570px;
   text-align: left;
   padding: 25px;
-  vertical-align: top;
-  margin-right: 30px;
 }
 .tabs-content__header {
-  min-height: 124px;
+  margin-bottom: 60px;
   font-family: Open Sans;
   font-size: 30px;
   font-weight: 700;
@@ -69,7 +63,6 @@
 .tabs-content__button {
   height: 58px;
   width: 270px;
-  border-radius: 0px;
   background: #ec7979;
   color: white;
   font-size: 18px;
@@ -78,23 +71,11 @@
 }
 
 .tabs-content__button:hover {
-  height: 58px;
-  width: 270px;
-  border-radius: 0px;
   background: #df6464;
-  color: white;
-  font-size: 18px;
-  border-color: transparent;
-  cursor: pointer;
+  transition: 0.7s;
 }
 
 .tabs-content__button:active {
-  height: 58px;
-  width: 270px;
-  border-radius: 0px;
   background: #b64545;
-  color: white;
-  font-size: 18px;
-  border-color: transparent;
-  cursor: pointer;
+  transition: 0.7s;
 }

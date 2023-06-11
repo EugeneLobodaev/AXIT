@@ -44,6 +44,7 @@
   border-right: 20px solid transparent;
   border-top: 20px solid #e2e2e2;
   clear: both;
+  z-index: auto;
 }
 .customers-profile {
   display: flex;

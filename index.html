@@ -30,44 +30,93 @@
     />
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
+    <link rel="stylesheet" href="./src/styles/banner.css" />
     <link rel="stylesheet" href="./src/styles/social.css" />
     <link rel="stylesheet" href="./src/styles/awesome.css" />
     <link rel="stylesheet" href="./src/styles/tabs.css" />
     <link rel="stylesheet" href="./src/styles/pricing.css" />
     <link rel="stylesheet" href="./src/styles/customers.css" />
     <link rel="stylesheet" href="./src/styles/design.css" />
+    <link rel="stylesheet" href="./src/styles/contacts.css" />
     <link rel="stylesheet" href="./src/styles/footer.css" />
 
     <title>AXIT</title>
   </head>
-  <body>
+  <body id="pagetop">
     <div class="container">
       <section class="main-header">
-        <nav class="main-header_menu">
+        <nav class="main-header__menu">
           <div class="logo">
             <img src="./src/asstets/AX.svg" alt="Logo" />
             <img src="./src/asstets/IT.svg" alt="" />
           </div>
           <div class="nav-links">
-            <ul class="nav-links_list">
-              <li class="nav-links_items">
-                <a href="#awesome" class="nav-links_link">Features</a>
+            <ul class="nav-links__list">
+              <li class="nav-links__items">
+                <a href="#pagetop" class="nav-links__link">Features</a>
               </li>
-              <li class="nav-links_items">
-                <a href="#tabs" class="nav-links_link">About</a>
+              <li class="nav-links__items">
+                <a href="#awesome" class="nav-links__link">About</a>
               </li>
-              <li class="nav-links_items">
-                <a href="#pricing" class="nav-links_link">Pricing</a>
+              <li class="nav-links__items">
+                <a href="#pricing" class="nav-links__link">Pricing</a>
               </li>
-              <li class="nav-links_items">
-                <a href="#customers" class="nav-links_link">Reviews</a>
+              <li class="nav-links__items">
+                <a href="#customers" class="nav-links__link">Reviews</a>
               </li>
-              <li class="nav-links_items">
-                <a href="#socials" class="nav-links_link">Contact</a>
+              <li class="nav-links__items">
+                <a href="#contactslink" class="nav-links__link">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
+      </section>
+      <section class="banner">
+        <div class="banner__text" id="bannerlink">
+          <div class="banner__logo">
+            <img src="./src/asstets/AX.svg" alt="logo" />
+            <img src="./src/asstets/IT.svg" alt="logo" />
+          </div>
+          <h2 class="banner__article">
+            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+          </h2>
+          <div class="banner__separator"></div>
+          <p class="banner__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <button type="button" class="banner__button">Download</button>
+        </div>
+        <div class="banner--form">
+          <h2 class="banner--form__adv">TRY YOUR FREE TRIAL TODAY</h2>
+          <form action="">
+            <input
+              type="name"
+              name=""
+              id="name"
+              placeholder="Name"
+              class="banner--form__item"
+            />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Email"
+              class="banner--form__item"
+            />
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Password"
+              class="banner--form__item"
+            />
+            <input
+              type="submit"
+              class="banner--form__submit"
+              value="Get Started"
+            />
+          </form>
+        </div>
       </section>
       <section class="social" id="socials">
         <div class="social-text">
@@ -338,6 +387,39 @@
           </p>
           <button type="button" class="design__button">Download</button>
         </div>
+      </section>
+      <section class="contacts" id="contactslink">
+        <div class="section-header">
+          <h2 class="section-header__article">CONTACT US</h2>
+          <div class="section-header__separator"></div>
+          <p class="section-header__slogan">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <form action="">
+          <div class="contact--forms">
+            <div class="contact--forms__info">
+              <input type="name" class="input" placeholder="Name" />
+              <input type="email" class="input" placeholder="Email" />
+              <input type="password" class="input" placeholder="Password" />
+            </div>
+            <div class="contact--forms__message">
+              <textarea
+                name=""
+                id=""
+                cols="50"
+                rows="13"
+                class="message-input"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="contact--button">
+            <button type="submit" class="contact--button__item">
+              Send Message
+            </button>
+          </div>
+        </form>
       </section>
       <section class="footer">
         <div class="footer-content">
