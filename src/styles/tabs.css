@@ -40,15 +40,15 @@
 
 .tabs-content {
   border: #c6cbcd 1px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.tabs-content:nth-child(2) {
-  text-align: right;
-}
 .tabs-content__text {
   max-width: 570px;
   text-align: left;
-  display: inline-block;
+  padding: 25px;
   vertical-align: top;
   margin-right: 30px;
 }

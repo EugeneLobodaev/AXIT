@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
   font-size: 0px;
   box-sizing: border-box;
@@ -10,10 +15,8 @@ body {
 }
 
 .section-header {
-  max-height: 150px;
+  min-height: 150px;
   max-width: 100%;
-  font-family: Raleway;
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
