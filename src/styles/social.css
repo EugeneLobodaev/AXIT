@@ -1,0 +1,35 @@
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  background: #f8efef;
+}
+
+.social-text {
+  max-width: 470px;
+}
+.social-text__article {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  max-width: 470px;
+}
+
+.social-text__paragraph {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 470px;
+  color: #86878b;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons__item:hover {
+  fill: #ec7979;
+  transition: 0.7s;
+}

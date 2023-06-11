@@ -13,7 +13,6 @@
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 700;
-  line-height: 33px;
   text-align: left;
 }
 
@@ -21,7 +20,6 @@
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.5;
   text-align: left;
 }
 
@@ -42,8 +40,6 @@
   position: absolute;
   left: 5%;
   top: 100%;
-  width: 0;
-  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid #e2e2e2;
