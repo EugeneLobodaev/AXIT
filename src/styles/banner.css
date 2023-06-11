@@ -61,13 +61,14 @@
   margin-left: 20px;
 }
 
-.banner--form {
+.banner-form {
+
   max-width: 450px;
   border: 0px solid transparent;
   border-radius: 5px;
   background-color: white;
 }
-.banner--form__adv {
+.banner-form__adv {
   padding: 0 20px;
   font-family: Open Sans;
   font-size: 24px;
@@ -81,21 +82,20 @@
   color: #ec7979;
 }
 
-.banner--form__item {
+.banner-form__item {
   display: flex;
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
-  max-width: 370px;
   margin-bottom: 68px;
   padding-left: 20px;
   padding-bottom: 10px;
 }
 
-.banner--form__item:focus {
+.banner-form__item:focus {
   outline: none;
 }
 
-.banner--form__submit {
+.banner-form__submit {
   cursor: pointer;
   background-color: #ec7979;
   border: 0px transparent;
@@ -106,7 +106,7 @@
   width: 100%;
 }
 
-.banner--form__submit:hover {
+.banner-form__submit:hover {
   background-color: #bb4e4e;
   transition: 0.7s;
 }
