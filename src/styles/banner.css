@@ -1,0 +1,112 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../asstets/background-banner.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner__text {
+  max-width: 670px;
+  text-align: left;
+  margin-top: 200px;
+}
+
+.banner__separator {
+  background: white;
+  height: 1px;
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.banner__article {
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  margin-top: 73px;
+}
+
+.banner__paragraph {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  margin-top: 42px;
+}
+.banner__button {
+  margin-bottom: 185px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  max-width: 370px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 100px;
+}
+
+.banner__button:hover {
+  background: rgba(0, 0, 0, 0.705);
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.banner__logo {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.banner-form {
+
+  max-width: 450px;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  background-color: white;
+}
+.banner-form__adv {
+  padding: 0 20px;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+}
+
+.banner__text--red {
+  text-decoration: none;
+  color: #ec7979;
+}
+
+.banner-form__item {
+  display: flex;
+  border: 0px transparent;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+  margin-bottom: 68px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.banner-form__item:focus {
+  outline: none;
+}
+
+.banner-form__submit {
+  cursor: pointer;
+  background-color: #ec7979;
+  border: 0px transparent;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  height: 50px;
+  width: 100%;
+}
+
+.banner-form__submit:hover {
+  background-color: #bb4e4e;
+  transition: 0.7s;
+}

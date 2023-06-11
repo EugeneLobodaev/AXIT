@@ -2,11 +2,9 @@
   display: flex;
   justify-content: space-evenly;
   background: #f8efef;
+  object-fit: cover;
 }
 
-.social-text {
-  max-width: 470px;
-}
 .social-text__article {
   font-family: Open Sans;
   font-size: 24px;
@@ -27,6 +25,11 @@
 .social-icons {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-icons__item {
+  max-width: 30px;
 }
 
 .social-icons__item:hover {

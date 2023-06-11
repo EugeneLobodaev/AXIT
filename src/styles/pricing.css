@@ -52,7 +52,6 @@
 }
 
 .pricing__list:hover {
-  margin-top: 0px;
-  /* box-shadow: 1px 4px 10px 2px #33333333; */
-  transition: 0.4s;
+margin-top: 0px;
+transition: 0.7s;
 }
