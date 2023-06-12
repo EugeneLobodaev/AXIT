@@ -62,7 +62,6 @@
 }
 
 .banner-form {
-
   max-width: 450px;
   border: 0px solid transparent;
   border-radius: 5px;
@@ -70,6 +69,7 @@
 }
 .banner-form__adv {
   padding: 0 20px;
+  margin-bottom: 45px;
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 700;
@@ -77,18 +77,20 @@
   text-align: center;
 }
 
-.banner__text--red {
-  text-decoration: none;
-  color: #ec7979;
+.banner-form__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  padding: 0 25px;
+
 }
 
 .banner-form__item {
-  display: flex;
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
   margin-bottom: 68px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  padding: 0 10px
 }
 
 .banner-form__item:focus {
@@ -103,7 +105,6 @@
   border-bottom-right-radius: 5px;
   color: white;
   height: 50px;
-  width: 100%;
 }
 
 .banner-form__submit:hover {
