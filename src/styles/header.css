@@ -1,24 +1,26 @@
 .main-header {
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
+
 .main-header__menu {
-  position: fixed;
   display: flex;
+  position: fixed;
   background: black;
+  width: 100%;
+  left: 0;
   align-items: center;
   justify-content: space-around;
   top: 0;
-  width: 127.8vh;
   z-index: 1;
 }
 
 .nav-links__list {
   display: flex;
+  gap: 30px;
   list-style: none;
-  width: 700px;
-  justify-content: space-evenly;
 }
+
 .nav-links__items {
   font-family: Open Sans;
   font-size: 14px;

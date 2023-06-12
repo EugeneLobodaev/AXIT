@@ -4,10 +4,13 @@
 .customers-content {
   display: flex;
   justify-content: space-around;
+
 }
 
 .customers-item {
   max-width: 370px;
+  margin-left: 20px;
+  
 }
 .customers-name {
   font-family: Open Sans;

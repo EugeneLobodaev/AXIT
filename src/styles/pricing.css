@@ -13,6 +13,7 @@
 .pricing__list {
   list-style: none;
   margin-top: 50px;
+  margin-left: 20px;
   width: 370px;
   padding: 0;
   transition: 0.4s;

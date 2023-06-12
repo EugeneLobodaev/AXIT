@@ -1,10 +1,10 @@
 .buttons__item {
-  display: inline-block;
   padding: 0;
+  margin-top: 50px;
 }
 
 .tabs-header__list {
-  text-align: left;
+  display: flex;
 }
 
 .tabs-header__button {
