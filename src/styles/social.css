@@ -1,8 +1,7 @@
-.social {
-  display: flex;
-  justify-content: space-evenly;
-  background: #f8efef;
+.background-social {
+  background-color: #f8efef;
   object-fit: cover;
+  width: 100%;
 }
 
 .social-text__article {
