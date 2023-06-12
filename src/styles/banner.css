@@ -83,7 +83,6 @@
   justify-content: center;
   margin: 15px;
   padding: 0 25px;
-
 }
 
 .banner-form__item {
@@ -93,6 +92,9 @@
   padding: 0 10px
 }
 
+.banner-form__submit {
+  width: 100%;
+}
 .banner-form__item:focus {
   outline: none;
 }
