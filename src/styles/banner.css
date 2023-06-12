@@ -93,10 +93,6 @@
   padding: 0 10px
 }
 
-.banner-form__submit {
-  width: 100%;
-}
-
 .banner-form__item:focus {
   outline: none;
 }
@@ -109,6 +105,7 @@
   border-bottom-right-radius: 5px;
   color: white;
   height: 50px;
+  width: 100%;
 }
 
 .banner-form__submit:hover {
