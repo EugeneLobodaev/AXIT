@@ -6,30 +6,30 @@
 
 .contact--forms__info {
   margin-bottom: 20px;
+  width: 500px;
 }
 
+.contact--forms__message {
+  width: 500px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
 .input {
   display: flex;
-  width: 500px;
+  width: 100%;
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
   margin-bottom: 68px;
-  padding-left: 20px;
   padding-bottom: 10px;
-  padding-left: 0;
-  text-align: left;
   outline: none;
 }
 
 .message-input {
-  display: flex;
+  width: 100%;
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
-  margin-bottom: 68px;
-  padding-left: 20px;
   padding-bottom: 10px;
   padding-left: 0;
-  text-align: left;
   outline: none;
   resize: none;
 }
