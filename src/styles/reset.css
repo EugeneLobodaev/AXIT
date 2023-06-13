@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 50px;
 }
 
 body {
   font-size: 0px;
   box-sizing: border-box;
+  margin: 0;
 }
 
 a {
@@ -30,7 +31,7 @@ a:hover {
 .section-header {
   min-height: 150px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 .section-header__article {

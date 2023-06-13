@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,40 +38,35 @@
 
     <title>AXIT</title>
   </head>
-  <body id="pagetop">
-    <section class="main-header">
-      <nav class="main-header__menu">
-        <div class="nav-logo">
-          <a href="#pagetop">
-          <img src="./src/asstets/AX.svg" alt="Logo">
-          <img src="./src/asstets/IT.svg" alt="">
+  <body id="#">
+    <header class="main-header">
+      <nav class="header-nav">
+          <a href="#" class="header-nav__logo">
+          <img src="./src/asstets/AX.svg" alt="logo">
+          <img src="./src/asstets/IT.svg" alt="logo">
         </a>
-        </div>
-        <div class="nav-links">
-          <ul class="nav-links__list">
-            <li class="nav-links__items">
-              <a href="#pagetop" class="nav-links__link">Features</a>
+          <ul class="header-nav__links">
+            <li>
+              <a href="#awesome" class="header-nav__link">Features</a>
             </li>
-            <li class="nav-links__items">
-              <a href="#awesome" class="nav-links__link">About</a>
+            <li>
+              <a href="#tabs" class="header-nav__link">About</a>
             </li>
-            <li class="nav-links__items">
-              <a href="#pricing" class="nav-links__link">Pricing</a>
+            <li>
+              <a href="#pricing" class="header-nav__link">Pricing</a>
             </li>
-            <li class="nav-links__items">
-              <a href="#customers" class="nav-links__link">Reviews</a>
+            <li>
+              <a href="#customers" class="header-nav__link">Reviews</a>
             </li>
-            <li class="nav-links__items">
-              <a href="#contactslink" class="nav-links__link">Contact</a>
+            <li>
+              <a href="#contacts" class="header-nav__link">Contact</a>
             </li>
           </ul>
-        </div>
       </nav>
-    </section>
-      <div class="background-image">
+    </header>
       <section class="banner">
         <div class="container">
-        <div class="banner__text" id="bannerlink">
+        <div class="banner__left" id="banner-link">
           <div class="banner__logo">
             <img src="./src/asstets/AX.svg" alt="logo">
             <img src="./src/asstets/IT.svg" alt="logo">
@@ -85,22 +80,20 @@
           </p>
           <button type="button" class="banner__button">Download</button>
         </div>
-        <div class="banner-form">
-          <h2 class="banner-form__adv">TRY YOUR FREE TRIAL TODAY</h2>
-          <form>
-            <div class="banner-form__inputs">
-            <input type="text" id="name" placeholder="Name" class="banner-form__item">
-            <input type="email" id="email" placeholder="Email" class="banner-form__item">
-            <input type="password" id="password" placeholder="Password" class="banner-form__item">
+        <div class="banner__right">
+          <h1 class="banner__advertisment">TRY YOUR FREE TRIAL TODAY</h1>
+          <form >
+            <div class="banner__inputs">
+            <input type="text" id="name" placeholder="Name" class="banner__input" autocomplete="name">
+            <input type="email" id="email" placeholder="Email" class="banner__input" autocomplete="email">
+            <input type="password" id="password" placeholder="Password" class="banner__input" autocomplete="current-password">
           </div>
-            <input type="submit" class="banner-form__submit" value="Get Started">
+            <input type="submit" class="banner__submit" value="Get Started">
           </form>
         </div>
       </div>
       </section>
-    </div>
       <section class="social" id="socials">
-        <div class="background-social">
           <div class="container">
         <div class="social-text">
           <h2 class="social-text__article">Social Media</h2>
@@ -118,7 +111,6 @@
           <a href="#"><img src="./src/asstets/github.svg" alt="github icon" class="social-icons__item"></a>
           <a href="#"><img src="./src/asstets/wifi.svg" alt="wifi icon" class="social-icons__item"></a>
         </div>
-      </div>
       </div>
       </section>
       <section class="awesome" id="awesome">
@@ -163,7 +155,6 @@
       </section>
       <section class="tabs" id="tabs">
       <div class="container">
-        <div class="tabs-header__buttons">
           <ul class="tabs-header__list">
             <li class="buttons__item">
               <button class="tabs-header__button">TAB 1</button>
@@ -175,7 +166,6 @@
               <button class="tabs-header__button">TAB 3</button>
             </li>
           </ul>
-        </div>
         <div class="tabs-content">
           <div class="tabs-content__text">
             <h1 class="tabs-content__header">
@@ -314,7 +304,7 @@
         </div>
       </div>
       </section>
-      <section class="design">
+      <section class="design" id="design">
         <div class="container">
         <div class="design-header">
           <h2 class="design-header__article">STYLISH AXURE DESIGN</h2>
@@ -327,35 +317,35 @@
         </div>
       </div>
       </section>
-      <section class="contacts" id="contactslink">
+      <address class="contacts" id="contacts">
         <div class="container">
         <div class="section-header">
-          <h2 class="section-header__article">CONTACT US</h2>
+          <div class="section-header__article">CONTACT US</div>
           <div class="section-header__separator"></div>
           <p class="section-header__slogan">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <form>
-          <div class="contact--forms">
-            <div class="contact--forms__info">
+        <form class="contact-">
+          <div class="contact-forms">
+            <div class="contact-forms__info">
               <input type="text" class="input" placeholder="Name">
               <input type="email" class="input" placeholder="Email">
               <input type="password" class="input" placeholder="Password">
             </div>
-            <div class="contact--forms__message">
+            <div class="contact-forms__message">
               <textarea cols="50" rows="13" class="message-input" placeholder="Message"></textarea>
             </div>
           </div>
-          <div class="contact--button">
-            <button type="submit" class="contact--button__item">
+          <div class="contact-button">
+            <button type="submit" class="contact-button__item">
               Send Message
             </button>
           </div>
         </form>
       </div>
-      </section>
-      <section class="footer">
+      </address>
+      <footer class="footer">
         <div class="footer-content">
           <div class="footer-icons">
             <a href="#"><img src="./src/asstets/facebook.svg" alt="facebook icon" class="footer-icons__item"></a>
@@ -369,6 +359,6 @@
           <br>
           <p class="footer-slogan">© 2015 Axure Themes</p>
         </div>
-      </section>
+      </footer>
   </body>
 </html>

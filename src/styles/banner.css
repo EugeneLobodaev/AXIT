@@ -1,17 +1,12 @@
-.background-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
   url(../asstets/background-banner.svg);
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 100%;
+
 }
-.banner {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.banner__text {
+.banner__left {
   max-width: 670px;
   text-align: left;
   margin-top: 200px;
@@ -41,6 +36,7 @@
   color: white;
   margin-top: 42px;
 }
+
 .banner__button {
   margin-bottom: 185px;
   background: transparent;
@@ -60,14 +56,13 @@
   cursor: pointer;
 }
 
-.banner-form {
-  max-width: 450px;
+.banner__right {
   border: 0px solid transparent;
   border-radius: 5px;
   background-color: white;
 }
 
-.banner-form__adv {
+.banner__advertisment {
   padding: 0 20px;
   margin-bottom: 45px;
   font-family: Open Sans;
@@ -77,7 +72,7 @@
   text-align: center;
 }
 
-.banner-form__inputs {
+.banner__inputs {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,29 +80,28 @@
   padding: 0 25px;
 }
 
-.banner-form__item {
+.banner__input {
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
   margin-bottom: 68px;
   padding: 0 10px
 }
 
-.banner-form__item:focus {
-  outline: none;
+.banner__input:focus {
+  outline-color: #ec7979;
 }
 
-.banner-form__submit {
+.banner__submit {
   cursor: pointer;
   background-color: #ec7979;
   border: 0px transparent;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: white;
-  height: 50px;
-  width: 100%;
+  padding: 20px 160px;
 }
 
-.banner-form__submit:hover {
+.banner__submit:hover {
   background-color: #bb4e4e;
   transition: 0.7s;
 }
