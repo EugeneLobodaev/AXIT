@@ -3,7 +3,7 @@
   margin-bottom: 55px;
 }
 
-.main-header__menu {
+.header-nav {
   display: flex;
   position: fixed;
   background: black;
@@ -15,20 +15,17 @@
   z-index: 1;
 }
 
-.nav-links__list {
+.header-nav__links {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 
-.nav-links__items {
+.header-nav__link {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
-}
-
-.nav-links__link {
   text-decoration: none;
   color: white;
 }

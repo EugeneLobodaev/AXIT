@@ -1,4 +1,4 @@
-.background-social {
+.social {
   background-color: #f8efef;
   object-fit: cover;
   width: 100%;
@@ -29,6 +29,7 @@
 
 .social-icons__item {
   max-width: 30px;
+  max-height: 30px;
 }
 
 .social-icons__item:hover {

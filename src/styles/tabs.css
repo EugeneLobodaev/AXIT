@@ -5,6 +5,10 @@
 
 .tabs-header__list {
   display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .tabs-header__button {
