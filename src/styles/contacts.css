@@ -3,16 +3,16 @@
 }
 .contact-forms {
   display: flex;
-  gap: 100px;
+  gap: 5rem;
 }
 
 .contact-forms__info {
   margin-bottom: 20px;
-  width: 500px;
+  width: calc(100% / 2);
 }
 
 .contact-forms__message {
-  width: 500px;
+  width: calc(100% / 2);
   margin-top: 9px;
   margin-bottom: 0px;
 }
@@ -34,6 +34,7 @@
   padding-left: 0;
   outline-color: #ec7979;
   resize: none;
+  font-family: sans-serif;
 }
 .contact-button {
   display: flex;
@@ -47,7 +48,7 @@
   color: white;
   max-width: 370px;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
   padding: 20px 100px;

@@ -7,9 +7,9 @@
 
 }
 .banner__left {
-  max-width: 670px;
   text-align: left;
   margin-top: 200px;
+  width: calc(100% / 2 - 30px);
 }
 
 .banner__separator {
@@ -21,7 +21,7 @@
 }
 .banner__article {
   font-family: Raleway;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 500;
   text-align: left;
   color: white;
@@ -30,7 +30,7 @@
 
 .banner__paragraph {
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   color: white;
@@ -38,13 +38,13 @@
 }
 
 .banner__button {
+  display: flex;
   margin-bottom: 185px;
   background: transparent;
   border: 1px solid white;
   color: white;
-  max-width: 370px;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
   padding: 20px 100px;
@@ -57,30 +57,36 @@
 }
 
 .banner__right {
+  display: flex;
+  flex-direction: column;
   border: 0px solid transparent;
   border-radius: 5px;
   background-color: white;
+  width: calc(100% / 2 - 50px);
 }
 
 .banner__advertisment {
   padding: 0 20px;
   margin-bottom: 45px;
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 33px;
+  line-height: 1.5;
   text-align: center;
 }
 
 .banner__inputs {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: 15px;
   padding: 0 25px;
 }
 
 .banner__input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   border: 0px transparent;
   border-bottom: 1px solid rgba(128, 128, 128, 0.596);
   margin-bottom: 68px;
@@ -92,13 +98,17 @@
 }
 
 .banner__submit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
   cursor: pointer;
   background-color: #ec7979;
   border: 0px transparent;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: white;
-  padding: 20px 160px;
+
 }
 
 .banner__submit:hover {

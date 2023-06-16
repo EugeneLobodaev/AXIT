@@ -6,7 +6,7 @@
 
 .social-text__article {
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: left;
   max-width: 470px;
@@ -14,7 +14,7 @@
 
 .social-text__paragraph {
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   max-width: 470px;

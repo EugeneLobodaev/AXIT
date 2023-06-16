@@ -1,29 +1,41 @@
 .awesome {
-  margin-bottom: 60px;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
 }
 .awesome-content__article {
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 33px;
+  line-height: 1.5;
   height: 100px;
   margin: 0px;
 }
 
 .awesome-content__description {
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.5;
   text-align: center;
 }
 
 .awesome-content__column {
-  width: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: calc(100% / 3 - 30px);
   margin-top: 110px;
-  display: inline-block;
+
 }
 
 .awesome-content {
-  text-align: center;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.awesome-content__image {
+  max-width: 200px;
 }

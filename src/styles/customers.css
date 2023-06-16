@@ -3,25 +3,25 @@
 }
 .customers-content {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
 
 }
 
 .customers-item {
-  max-width: 370px;
-  margin-left: 20px;
-  
+  width: calc(100% / 3 - 30px);
 }
 .customers-name {
   font-family: Open Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: left;
 }
 
 .customers-postiton {
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
 }
@@ -29,7 +29,7 @@
 .customers-comment {
   position: relative;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   background: #e2e2e2;
