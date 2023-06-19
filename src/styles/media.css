@@ -46,11 +46,16 @@
 
   .header-nav {
     height: 50px;
-    justify-content: space-around;
+    justify-content: start;
   }
-.banner__logo {
-  display: none;
-}
+  .header-nav__logo {
+    margin-left: 10px;
+  }
+
+  .banner__logo {
+    display: none;
+  }
+
   .banner__left {
     display: flex;
     flex-direction: column;
@@ -111,17 +116,20 @@
   .burger-wrapper {
     display: flex;
     position: relative;
+    left: 85%;
   }
 
   .menu-burger,
   .menu-burger::before,
   .menu-burger::after {
     display: block;
+    margin-top: 23px;
     background-color: #ec7979;
-    position: absolute;
+    position: fixed;
     height: 4px;
     width: 30px;
     border-radius: 1px;
+    z-index: 100;
   }
 
   .menu-burger::before {
