@@ -7,9 +7,9 @@
 
 }
 .banner__left {
-  text-align: left;
-  margin-top: 200px;
+  margin-top: 100px;
   width: calc(100% / 2 - 30px);
+  gap: 30px;
 }
 
 .banner__separator {
@@ -17,7 +17,7 @@
   height: 1px;
   width: 170px;
   margin-left: 0;
-  margin-top: 55px;
+  /* margin-top: 55px; */
 }
 .banner__article {
   font-family: Raleway;
@@ -25,7 +25,6 @@
   font-weight: 500;
   text-align: left;
   color: white;
-  margin-top: 73px;
 }
 
 .banner__paragraph {
@@ -38,7 +37,6 @@
 }
 
 .banner__button {
-  display: flex;
   margin-bottom: 185px;
   background: transparent;
   border: 1px solid white;

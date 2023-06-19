@@ -1,18 +1,28 @@
 
 @media (max-width: 1024px) {
-    html {
+    .html {
         font-size: 14px;
     }
     .header-nav__logo {
         display: flex;
       }
     .banner__right {
-        width: 70%;
-        margin-bottom: 15px;
+        width: 60%;
+        margin-bottom: 35px;
       }
-      .tabs-header__button {
-        top: 54px;
+      .banner__button {
+        margin-bottom: 75px;
       }
+      .tabs-header__button--active {
+        z-index: 10;
+        border-bottom: 1px solid white;
+      }
+      .tabs-content__text {
+        align-items: center;
+      }
+      .tabs-content__image {
+        display: none;
+        }
 }
 
 @media (max-width: 414px) {
@@ -21,6 +31,9 @@
     }
     body {
         margin: 0 auto;
+
+    }
+    .banner__button {
 
     }
     .header-nav__links {
@@ -40,12 +53,10 @@
       }
       .banner__right {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
       }
       .banner__button {
-        justify-content: center;
         align-self: center;
-        width: 50%;
       }
       .tabs-content__image {
         display: none;
@@ -56,6 +67,9 @@
     .tabs-header__button {
         padding: 7px 30px;
         top: 56px;
+        }
+        .pricing__lists {
+          margin-top: 0;
         }
         .pricing__list {
             width: 100%;

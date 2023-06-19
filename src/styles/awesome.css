@@ -25,8 +25,6 @@
   align-items: center;
   flex-direction: column;
   max-width: calc(100% / 3 - 30px);
-  margin-top: 110px;
-
 }
 
 .awesome-content {

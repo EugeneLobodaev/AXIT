@@ -1,5 +1,6 @@
 .footer-content {
   background: black;
+  margin: 0;
 }
 
 .footer-icons {
@@ -17,6 +18,7 @@
   color: #ffffff80;
   background: black;
   padding-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .footer-icons__item {

@@ -10,8 +10,7 @@
 .tabs-header__list {
   position: relative;
   display: flex;
-  gap: 200px;
-  left: 15px;
+  gap: 130px;
   width: 100%;
   display: flex;
   justify-content: start;
@@ -22,7 +21,7 @@
 
 .tabs-header__button {
   position: absolute;
-  padding: 7px 82px;
+  padding: 7px 40px;
   background: transparent;
   color: grey;
   border: transparent;
@@ -31,29 +30,30 @@
   font-size: 0.8rem;
   font-weight: 400;
   text-align: center;
-  z-index: 100;
+  z-index: 5;
   }
 
 
 .tabs-header__button--active {
   color: grey;
-  background-color: white(255, 0, 0, 0.212);
   border: 1px solid #c6cbcd;
-  border-bottom: 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-bottom: 1px solid white;
+  border-bottom: 5px solid white;
 }
 
 .tabs-content {
   border: #c6cbcd 1px solid;
   display: flex;
-  max-width: 100%;
+  width: 100%;
   margin-top:34px;
 
 }
 
 .tabs-content__text {
+  display: flex;
+  flex-direction: column;
+  width: calc(100 / 2 -30px);
   text-align: left;
   padding: 25px;
 }
@@ -89,4 +89,8 @@
 .tabs-content__button:active {
   background: #b64545;
   transition: 0.7s;
+}
+.image__wrapper {
+  display: flex;
+  width: calc(100% / 2 -30px);
 }
