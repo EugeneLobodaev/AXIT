@@ -1,9 +1,14 @@
 .social {
+  display: flex;
+  justify-content: space-between;
   background-color: #f8efef;
   object-fit: cover;
   width: 100%;
+  padding-bottom: 20px;
 }
-
+.social-text {
+  margin-right: 20px;
+}
 .social-text__article {
   font-family: Open Sans;
   font-size: 1.5rem;
@@ -23,6 +28,7 @@
 
 .social-icons {
   display: flex;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
