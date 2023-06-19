@@ -28,3 +28,11 @@
   text-decoration: none;
   color: white;
 }
+
+.header-nav__logo {
+  justify-content: start;
+}
+
+.menu-burger__button {
+  display: none;
+}
